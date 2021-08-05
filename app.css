@@ -586,6 +586,10 @@ footer .content img {
   text-align: center;
 }
 
+.col-sm-12 {
+  width: 100%;
+}
+
 /* End Footer */
 
 /* Responsive */
@@ -684,6 +688,27 @@ footer .content img {
 @media only screen and (max-width: 770px) {
   .social-list {
     margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .center {
+    display: inline;
+    margin-left: 20%;
+  }
+  .social-list {
+    margin-left: 20%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .sign-in {
+    display: none;
   }
 }
 /* End Responsive */
