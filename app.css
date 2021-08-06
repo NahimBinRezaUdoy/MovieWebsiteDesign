@@ -531,15 +531,8 @@ footer a.logo:hover {
   color: unset;
 }
 
-.social-list {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 30%;
-}
-
 .social-item {
-  --size: 30px;
+  --size: 35px;
   height: var(--size);
   width: var(--size);
   display: grid;
@@ -564,7 +557,7 @@ footer .content {
 
 footer .content img {
   border-radius: 50px;
-  margin-top: -1rem;
+  width: 200px;
 }
 
 .footer-menu {
@@ -585,9 +578,15 @@ footer .content img {
   background-color: black;
   text-align: center;
 }
-
-.col-sm-12 {
+.center {
+  text-align: center;
   width: 100%;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 /* End Footer */
@@ -647,9 +646,9 @@ footer .content img {
     font-size: 12px;
   }
 
-  .social-list {
+  /* .social-list {
     margin-left: 30%;
-  }
+  } */
 
   .hero-slide-item {
     height: 350px;
@@ -686,9 +685,9 @@ footer .content img {
   }
 }
 @media only screen and (max-width: 770px) {
-  .social-list {
+  /* .social-list {
     margin-left: 40%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 575px) {
@@ -696,10 +695,12 @@ footer .content img {
     display: inline;
     margin-left: 20%;
   }
-  .social-list {
+  /* .social-list {
     margin-left: 20%;
+  } */
+  footer .content img {
+    width: 10px;
   }
-
   .col-sm-12 {
     width: 100%;
     text-align: center;
